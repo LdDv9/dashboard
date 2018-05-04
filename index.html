@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dash Board</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="./css/vendor.min.css" rel="stylesheet">
+        <link href="./css/main.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+            <i class="glyphicon glyphicon-align-left"></i>
+            <span>Toggle Sidebar</span>
+        </button>
+    <body id="page-home">        
+        <div class="wrapper">
+                <nav class="sidebar">
+                        <!-- Sidebar Header -->
+                        <div class="sidebar--header">
+                            <h3>Collapsible Sidebar</h3>
+                        </div>        
+                        <!-- Sidebar Links -->
+                        <ul class="list-unstyled components">
+                            <li class="active">
+                                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+                                <ul class="collapse list-unstyled" id="homeSubmenu">
+                                    <li><a href="#">Page</a></li>
+                                    <li><a href="#">Page</a></li>
+                                    <li><a href="#">Page</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">About</a></li>
+                
+                            <li><!-- Link with dropdown items -->
+                                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
+                                <ul class="collapse list-unstyled" id="pageSubmenu">
+                                    <li><a href="#">Page</a></li>
+                                    <li><a href="#">Page</a></li>
+                                    <li><a href="#">Page</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav> 
+        </div>
+
+        <!-- jQuery -->
+        <script data-main="./js/config.js" src="./js/require.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <!-- <script   src="./js/helper.js"></script> -->
+    </body>
+</html>

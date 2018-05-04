@@ -1,0 +1,505 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marry Weddingday 2017</title>
+
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!-- Place favicon.ico in the root directory -->
+
+<!-- build:css css/plugin.css -->
+<link rel="stylesheet" href="../bower_components/select2/dist/css/select2.css">
+<link rel="stylesheet" href="../bower_components/sweetalert/dist/sweetalert.css">
+<link rel="stylesheet" href="../bower_components/magnific-popup/dist/magnific-popup.css">
+<link rel="stylesheet" href="css/plugin.css">
+<!-- endbuild -->
+
+<!-- build:css css/main.css -->
+<link rel="stylesheet" href="css/main.css">
+<!-- endbuild -->
+
+<!-- build:js js/modernizr.js-->
+<script src="../bower_components/modernizr/modernizr.js"></script>
+<!-- endbuild-->  </head>
+  <body class="has-event-banner">
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+<header class="header mm-slideout">
+  <nav class="top-nav">
+    <div class="container clearfix">
+      <h1 class="event-name">
+        <img src="images/img-header.png" alt="" class="img-responsive">
+      </h1>
+      <a type="button" href="#register-form" class="scroll-target btn btn-primary hidden-xs hidden-sm pull-right show-on-scroll"><span class="text-uppercase">Đăng ký nhận vé mời</span></a>
+      <div id="countdown" class="countdown"></div>
+    </div>
+  </nav>
+  <nav class="main-nav">
+    <div class="container clearfix">
+      <a href="#mainmenu" class="mmenu-toggle buger-menu hidden-md hidden-lg"><i class="icon ion-navicon"></i></a>
+      <a href="#" title="" class="main-nav__logo pull-left"><img src="images/img-marrybaby-logo.svg" alt="" width="80" class="img-responsive"></a>
+      <ul class="main-nav__account">
+        <li class="main-nav__account-li"><a href="#account-menu" class="main-nav__account-dropdown mmenu-toggle visible-xs visible-sm"><img src="images/img-default-avatar.png" alt="" class="main-nav__account-avatar" width="32"></a>
+          <div class="main-nav__account-dropdown mmenu-toggle visible-md visible-lg"><img src="images/img-default-avatar.png" alt="" class="main-nav__account-avatar" width="32"> &nbsp;&nbsp; <i class="icon ion-ios-arrow-down"></i>
+          </div>
+          <div id="account-menu">
+            <ul class="main-nav__sub">
+              <li class="main-nav__sub-li"><a href="#" title="" class="main-nav__sub-link">Trang cá nhân</a>
+              </li>
+              <li class="main-nav__sub-li"><a href="#" title="" class="main-nav__sub-link">Chỉnh sửa</a>
+              </li>
+              <li class="main-nav__sub-li"><a href="#" title="" class="main-nav__sub-link">Đăng xuất</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <a href="tel:+841900636487" class="telephone pull-right"><i class="icon ion-ios-telephone-outline"></i> 1900 63 64 87</a>
+      <div id="mainmenu" class="main-nav__mainmenu">
+        <ul class="main-nav__ul list-inline list-unstyled">
+          <li class="main-nav__li active"><a href="#" title="" class="main-nav__link">Baby &#38; School Day</a>
+          </li>
+          <li class="main-nav__li"><a href="#" title="" class="main-nav__link">Khu trò chơi</a>
+          </li>
+          <li class="main-nav__li"><a href="#" title="" class="main-nav__link">Trải nghiệm hấp dẫn</a>
+          </li>
+          <li class="main-nav__li"><a href="#" title="" class="main-nav__link">Tin tức</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>    
+    <div id="wrapper" class="wrapper">
+      <div class="cover-block">
+        <div class="cover-block__inner" style="background-image: url('images/bgd-cover-inner.png');">
+          <div class="img-key__mobile hidden-md hidden-lg">
+            <img src="images/img-key-mobile.png" alt="Key mobile" class="img-responsive">
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 col-md-offset-3 cover-block__images-main hidden-xs hidden-sm">
+                <div class="baday-school__day">
+                  <img src="images/event/img-key-baby-and-school-day.png" alt="Babyday" class="img-responsive mha">
+                </div>
+                <div class="tgpt">
+                  <img src="images/event/img-key-tgpt.png" alt="Thế Giới Phù Thủy" class="img-responsive">
+                </div>
+
+                <div class="marrybaby-marryliving text-center">
+                  <img src="images/event/img-key-marrybaby-marryliving.png" alt="Marrybaby Marryliving" class="img-responsive mha">
+                </div>
+              </div>
+              <div class="cover-block__form col-md-offset-1">
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="cover-block__img-key hidden-xs hidden-sm">
+                      <img class="img-responsive" src="images/img-key-desktop.png">
+                      <div class="cover-block__content text-center">
+                        <p class="fs24">26 & 27-5-2018</p>
+                        <p class="fs18">TRƯỜNG ĐẠI HỌC TÔN ĐỨC THẮNG</p>
+                        <p class="fs16">19 Nguyễn Hữu Thọ, P. Tân Hưng, Quận 7, TP. HCM</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <form id="register-form" class="register-form">
+                      <div class="register-form__inner">
+                        <div class="register-form__block-showhide active" id="main-register">
+                          <h3 class="text-center">Đăng ký nhận vé mời</h3>
+                          <ul class="mt0 pt0 mb0">
+                            <li>Chưa nhận được thư mời Lấy lại thư mời</li>
+                            <li class="register-form__desc">Đã có tài khoản MarryBaby 
+                              <a class="show-hide-form" href="#main-login" title="">Đăng nhập</a>
+                            </li>
+                          </ul>
+                          <div class="form-group__note mb10">
+                            1. Thông tin bé tham gia
+                          </div>
+                          <div class="form-group">
+                            <input type="text" name="name" placeholder="Họ & tên của bé" id="input-name" class="form-control">
+                          </div>
+                          <div class="form-group">
+                            <div class="row">
+                              <div class="col-xs-12">
+                                <div class="input-group input-group-style-1 has-icon">
+                                  <input type="text" data-toggle="datepicker" placeholder="Ngày sinh của bé" id="input-date" class="form-control"><span class="input-group-addon"><i class="icon ion-ios-calendar-outline"></i></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="inner-radio" style="height: 22px">
+                              <div class="radio radio-primary radio-inline">
+                                <input id="radio12" type="radio" name="radio2" value="option1" checked="">
+                                <label for="radio12">Bé trai</label>
+                              </div>
+                              <div class="radio radio-primary radio-inline">
+                                <input id="radio13" type="radio" name="radio2" value="option1">
+                                <label for="radio13">Bé gái</label>
+                              </div>
+                              <div class="radio radio-last radio-primary radio-inline">
+                                <a class="cl0" href="#" title=""><i class="ion-ios-plus-outline"></i> Thêm bé</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <ul class="list-unstyled form-list__show">
+                              <li class="full-name">Phạn Thụy Mỹ Nghi</li>
+                              <li class="date">20/10/2015</li>
+                              <li><a class="cl0" href="#" class="form-list__show-delete"><i class="ion-ios-close-outline"></i> Xóa</a></li>
+                            </ul>
+                          </div>
+                          <div class="form-group__note mb10">
+                            2. Thông tin tài khoản MarryBaby
+                          </div>
+                          <div class="form-group">
+                            <input type="text" name="name" placeholder="Email" id="" class="form-control">
+                          </div>
+                          <div class="form-group">
+                            <input type="password" name="name" placeholder="Mật khẩu" id="" class="form-control">
+                          </div>
+                          <div class="form-group">
+                            <input type="text" name="name" placeholder="Họ và Tên" id="" class="form-control">
+                          </div>
+                          <div class="form-group">
+                            <input type="text" name="name" placeholder="Nhập số điện thoại để nhận mã tham dự" id="input-phone" class="form-control">
+                          </div>
+                          <div class="form-group">
+                            <select type="text" data-toggle="select2" class="form-control custom-select custom-select-location">
+                              <option value="option1">Chọn thành phố</option>
+                              <option value="option2">Option 2</option>
+                              <option value="option3">Option 3</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <div class="checkbox" style="height: 22px;">
+                              <input type="checkbox" name="checkbox" value="notyet" id="checkbox3">
+                              <label for="checkbox3">Tôi là bố của bé</label>
+                            </div>   
+                          </div>
+                          <div class="form-group">
+                            <button type="button" class="btn-orange btn btn-primary btn-block">Nhận vé mời</button>
+                          </div>
+                          <div class="">
+                            Khi <a class="show-hide-form" href="#main-login" title="">Đăng ký</a>, bạn đồng ý với Điều khoản sử dụng và Chính sách riêng tư của MarryBaby
+                          </div>
+                        </div>
+                        <div class="register-form__block-showhide" id="main-login" style="display: none;">
+                          <h3>Đăng nhập</h3>
+                          <div class="register-form__desc text-left">
+                            Chưa có tài khoản Marry <a class="show-hide-form" href="#main-register" title="">Đăng ký</a>
+                          </div>
+                          <div class="form-group">
+                            <label for="">Email</label>
+                            <input type="text" name="name" placeholder="Email" id="input-name" class="form-control">
+                          </div>
+                          <div class="form-group">
+                            <label for="">Mật khẩu</label>
+                            <input type="password" name="name" placeholder="Mật khẩu" id="input-name" class="form-control">
+                          </div>
+                          <div class="form-group">
+                            <div class="checkbox">
+                              <input type="checkbox" name="checkbox" value="notyet" checked="checked" id="checkbox3">
+                              <label for="checkbox3">Tôi là bố của bé</label>
+                            </div>   
+                            <div class="row">
+                              <div class="col-md-6 col-md-offset-3">
+                                <button type="button" class="btn btn-primary btn-block">Nhận vé mời</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="key-surf hidden-xs hidden-sm">
+            <img src="images/event/img-key-surf-magic.png" alt="">
+          </div> -->
+        </div>
+      </div>
+
+      <div class="xxx">
+        <div class="container">
+          <div class="content-btn">
+            <div class="content">
+              <p class="desc">Tổng giá trị quà và giải thưởng lên đến</p>
+              <p class="value-xxx">XXX Đồng</p>
+            </div>
+            <div class="btn-pen">
+              <a href="#" class="btn-xxx">Nhấn xem chi tiết
+                <span><img src="images/event/img-xxx-pen.png" alt=""></span>
+                <span><img src="images/event/img-xxx-pen-bur.png" alt=""></span>
+              </a>
+            </div>
+          </div>
+          <div class="img-xxx"><img src="images/event/img-xxx-bg.png" alt="Xxx" class="img-responsive mha"></div>
+        </div>
+      </div>
+
+      <div class="block-01 space-pc-sp">
+        <div class="container">
+          <h2 class="text-center title">Khu trò chơi
+            <span class="title-icon"><img src="images/event/img-title-icon-game.png" alt="Game" class="img-responsive"></span>
+          </h2>
+          <div><img src="images/event/img-area-game.png" alt="Khu vực trò chơi" class="img-responsive"></div>
+        </div>
+      </div>
+      
+      <!-- block -->
+      <div class="block-02 space-pc-sp">
+        <div class="container">
+          <h2 class="text-center title space-pc-sp__bt">Trải nghiệm hấp dẫn
+            <span class="title-icon title-icon__active"><img src="images/event/img-title-icon-active.png" alt="Activites" class="img-responsive"></span>
+          </h2>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="activity-block__inner text-center">
+                <div class="activity-block__thumb">
+                  <img src="images/img-ex-43.png" alt="" class="img-responsive img-rounded">
+                  <a class="btn activity-btn__more">Xem chi tiết <i class="ion-ios-arrow-up"></i></a>
+                </div>
+                <div class="activity-block__short-decription">
+                  Hoá trang thành Thổ Dân Nhí
+                </div>
+                <a href="#" title="" class="btn btn-marry btn-activity">ĐĂNG KÝ</a>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="activity-block__inner text-center">
+                <div class="activity-block__thumb">
+                  <img src="images/img-ex-43.png" alt="" class="img-responsive img-rounded">
+                  <a class="btn activity-btn__more">Xem chi tiết <i class="ion-ios-arrow-up"></i></a>
+                </div>
+                <div class="activity-block__short-decription">
+                  Hoá trang thành Thổ Dân Nhí
+                </div>
+                <a href="#" title="" class="btn btn-marry btn-activity">ĐĂNG KÝ</a>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="activity-block__inner text-center">
+                <div class="activity-block__thumb">
+                  <img src="images/img-ex-43.png" alt="" class="img-responsive img-rounded">
+                  <a class="btn activity-btn__more">Xem chi tiết <i class="ion-ios-arrow-up"></i></a>
+                </div>
+                <div class="activity-block__short-decription">
+                  Hoá trang thành Thổ Dân Nhí
+                </div>
+                <a href="#" title="" class="btn btn-marry btn-activity">ĐĂNG KÝ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- block -->
+  
+      <!-- block -->  
+      <div class="block-03 space-pc-sp">
+        <div class="container">
+          <h2 class="text-center title space-pc-sp__bt">Tin tức
+            <span class="title-icon title-icon__news"><img src="images/event/img-title-icon-news.png" alt="News" class="img-responsive"></span>
+          </h2>
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="news-block__inner text-center">
+                <div class="news-block__thumb">
+                  <img src="images/img-ex-43.png" class="img-responsive img-rounded">
+                </div>
+                <div class="news-block__short-decription">
+                  Những hình ảnh ấn tượng nhất MarryBaby Day 2017
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="news-block__inner text-center">
+                <div class="news-block__thumb">
+                  <img src="images/img-ex-43.png" class="img-responsive img-rounded">
+                </div>
+                <div class="news-block__short-decription">
+                  Những hình ảnh ấn tượng nhất MarryBaby Day 2017
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="news-block__inner text-center">
+                <div class="news-block__thumb">
+                  <img src="images/img-ex-43.png" class="img-responsive img-rounded">
+                </div>
+                <div class="news-block__short-decription">
+                  Những hình ảnh ấn tượng nhất MarryBaby Day 2017
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="news-block__inner text-center">
+                <div class="news-block__thumb">
+                  <img src="images/img-ex-43.png" class="img-responsive img-rounded">
+                </div>
+                <div class="news-block__short-decription">
+                  Những hình ảnh ấn tượng nhất MarryBaby Day 2017
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt20 text-center">
+            <a href="#" class="">Xem thêm <i class="ion-ios-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- block -->
+
+      <!-- block -->
+      <div class="block-4 space-pc-sp">
+        <div class="container">
+          <h2 class="text-center space-pc-sp__bt">
+            <img src="images/event/img-title-icon-ntt.png" alt="Image" class="img-responsive mha">
+          </h2>
+          <div class="mha ntt-img">
+            <img src="images/ntt.png" alt="Nhà Tài Trợ" class="img-responsive mha">
+          </div>
+        </div>
+      </div>
+      <!-- block -->
+      
+      <!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-md-offset-1">
+        <div class="clearfix">
+          <div class="pull-left cl0"><strong>Marry.vn</strong><br>Một thành viên thuộc</div>
+          <div class="pull-left"><img src="images/img-logo-marynetwork.png" alt="" width="106">
+          </div>
+        </div>
+        <ul class="list-link list-unstyled list-inline footer-list-link">
+          <li class="list-link-item"><a href="#" title="Giới thiệu">Giới thiệu</a>
+          </li>
+          <li class="list-link-item"><a href="#" title="Quy chế hoạt động">Quy chế hoạt động</a>
+          </li>
+          <li class="list-link-item"><a href="#" title="Chính sách bảo mật">Chính sách bảo mật</a>
+          </li>
+          <li class="list-link-item"><a href="#" title="Chính sách giải quyết khiếu nại">Chính sách giải quyết khiếu nại</a>
+          </li>
+          <li class="list-link-item"><a href="#" title="Điều khoản sử dụng">Điều khoản sử dụng</a>
+          </li>
+          <li class="list-link-item"><a href="#" title="Câu hỏi thường gặp">Câu hỏi thường gặp</a>
+          </li>
+          <li class="list-link-item"><a href="#" title="Sitemap">Sitemap</a>
+          </li>
+        </ul>
+        <p class="cl0">Quản lý bởi: Công ty TNHH Dịch Vụ Quảng Cáo và Truyền Thông Châu Á<br>Trụ sở chính: Lầu 3 Tòa nhà Copac, Số 12, Đường Tôn Đản, Phường 13, Quận 4, Tp. HCM<br>Giấy phép kinh doanh số: 0308967985 do Sở kế hoạch và Đầu tư Tp Hồ Chí Minh cấp ngày 10/06/2009<br>Điện thoại: (08) 3940 5071 | Email: lienhe@marrybaby.vn<br>Chịu trách nhiệm quản lý nội dung: Nguyễn Thị Hồng Hoa<br>Giấy xác nhận cung cấp dịch vụ mạng xã hội trực tuyến số 234/GP-BTTTT, HN ngày 10/05/2016<br><br>Đám cưới, Ảnh cưới, Áo cưới - Trang thông tin dịch vụ cưới lớn nhất Việt Nam.<br><strong class="cl0">Bản quyền thuộc về Marry © 2010-2016</strong></p>
+      </div>
+      <div class="col-md-3 col-md-offset-1">
+        <div class="social-connect">
+          <div class="social-connect-title">Kết nối với Marry</div>
+          <ul class="social-connect-ul">
+            <li class="social-connect-li"><a href="#" title="" class="social-connect-link"><i class="rvn-facebook"></i></a>
+            </li>
+            <li class="social-connect-li"><a href="#" title="" class="social-connect-link"><i class="rvn-youtube"></i></a>
+            </li>
+            <li class="social-connect-li"><a href="#" title="" class="social-connect-link"><i class="rvn-zalo"></i></a>
+            </li>
+            <li class="social-connect-li"><a href="#" title="" class="social-connect-link"><i class="rvn-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="text-center cl0"><span>Quảng cáo và truyền thông bởi</span><img src="images/img-ringier-logo.svg" alt="" width="185"><br><a href="#" title="Media kit" class="cl0">Media kit</a><span class="cl0">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#" title="Liên hệ" class="cl0">Liên hệ</a>
+          <div class="mt10">
+            <div class="row">
+              <div class="col-xs-6">
+                <img src="images/img-logo-verify-1.png" alt="">
+              </div>
+              <div class="col-xs-6">
+                <img class="mt5" src="images/img-logo-verify-2.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>      <!-- /Footer -->
+
+      <a class="back-to-top" href="" title=""><i class="icon ion-ios-arrow-up"></i></a>
+      <a href="#register-form-sm" class="scroll-target button-mobile-fixed hidden-md hidden-lg" title="">
+        <i class="icon ion-ios-compose-outline"></i>
+        <span class="button-mobile-fixed__text">
+          Đăng ký nhận<br/>vé mời
+        </span>
+      </a>
+    </div>
+
+    <div class="register-form mfp-hide white-popup-block" id="login-popup">
+      <div class="register-form__inner">
+        <div class="pull-right">
+          <div class="popup-modal-dismiss mb10">
+            Thoát <i class="icon ion-android-close"></i>
+          </div>
+        </div>
+        <div class="register-form__heading hidden-xs hidden-sm">Đăng nhập</div>
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Email" id="input-name" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="password" name="name" placeholder="Mật khẩu" id="input-name" class="form-control">
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <button type="button" class="btn btn-primary btn-block">Đăng nhập</button>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Script -->
+<!-- build:js js/jquery.js -->
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<!-- endbuild-->
+
+<!-- build:js js/plugins.js -->
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+<script src="/bower_components/select2/dist/js/select2.js"></script>
+<script src="/bower_components/moment/moment.js"></script>
+<script src="/bower_components/moment/locale/vi.js"></script>
+<script src="/bower_components/vide/dist/jquery.vide.min.js"></script>
+<script src="/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+<script src="/bower_components/sweetalert/dist/sweetalert.min.js"></script>
+<script src="/bower_components/jquery-lazy/jquery.lazy.min.js"></script>
+<script src="/bower_components/js-cookie/src/js.cookie.js"></script>
+<script src="/bower_components/isotope/dist/isotope.pkgd.min.js"></script>
+<script src="/bower_components/photoswipe/dist/photoswipe.min.js"></script>
+<script src="/bower_components/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+<script src="/bower_components/remarkable-bootstrap-notify/dist/bootstrap-notify.min.js"></script>
+<script src="/bower_components/jquery.countdown/dist/jquery.countdown.js"></script>
+<script src="/bower_components/gsap/src/minified/TweenMax.min.js"></script>
+<script src="js/plugins/bootstrap-datepicker.js"></script>
+<script src="js/plugins/jquery.mCustomScrollbar.min.js"></script>
+<script src="js/plugins/jquery.mmenu.all.min.js"></script>
+<script src="js/plugins/jquery.cookie.js"></script>
+<script src="js/plugins/jquery.validate.min.js"></script>
+<script src="js/plugins/jsrender.min.js"></script>
+<script src="js/plugins/jquery.number.min.js"></script>
+<script src="js/plugins/jquery.ui.widget.js"></script>
+<script src="js/plugins/jquery.iframe-transport.js"></script>
+<script src="js/plugins/jquery.fileupload.js"></script>
+<script src="js/plugins/jquery.fileupload-process.js"></script>
+
+<!-- endbuild -->
+
+<!-- build:js js/main.js -->
+<script src="js/main.js"></script>
+<!-- endbuild -->    <!-- /Script -->
+    
+  </body>
+</html>

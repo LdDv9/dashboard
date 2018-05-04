@@ -1,0 +1,28 @@
+/*global*/
+@import "fonts";
+@import "variable";
+@import "global";
+/*plugins*/
+// @import "plugins/datepicker";
+// @import "plugins/offcanvas";
+/*components*/
+@import "components/header";
+@import "components/footer";
+@import "components/menu";
+@import "components/icons";
+@import "components/space";
+@import "components/sidebar";
+
+//@import "components/posts";
+// @import "components/edit-block";
+// @import "components/edit-common";
+// @import "components/edit-forms";
+// @import "components/edit-cover";
+// @import "components/edit-plugins";
+
+
+@import "components/footer";
+/*page*/
+
+@import "pages/home";
+

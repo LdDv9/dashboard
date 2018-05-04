@@ -1,0 +1,220 @@
+[data-icon]:before {
+  font-family: "marryv3" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="rvn-"]:before,
+[class*=" rvn-"]:before {
+  font-family: "marryv3" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rvn-account:before {
+  content: "\61";
+}
+.rvn-zalo:before {
+  content: "\62";
+}
+.rvn-youtube:before {
+  content: "\63";
+}
+.rvn-facebook:before {
+  content: "\64";
+}
+.rvn-instagram:before {
+  content: "\65";
+}
+.rvn-email:before {
+  content: "\66";
+}
+.rvn-heart-plus:before {
+  content: "\67";
+}
+.rvn-dollar:before {
+  content: "\68";
+}
+.rvn-check:before {
+  content: "\69";
+}
+.rvn-verify:before {
+  content: "\6a";
+}
+.rvn-bag:before {
+  content: "\6b";
+}
+.rvn-wedding-dress-1:before {
+  content: "\6c";
+}
+.rvn-wedding-dress-2:before {
+  content: "\6d";
+}
+.rvn-vest:before {
+  content: "\6e";
+}
+.rvn-wedding-dress-3:before {
+  content: "\6f";
+}
+.rvn-wedding-dress-4:before {
+  content: "\70";
+}
+.rvn-wedding-dress-5:before {
+  content: "\71";
+}
+.rvn-wedding-dress-6:before {
+  content: "\72";
+}
+.rvn-wedding-dress-7:before {
+  content: "\73";
+}
+.rvn-pencil:before {
+  content: "\74";
+}
+.rvn-glass:before {
+  content: "\75";
+}
+.rvn-wedding-dress-8:before {
+  content: "\76";
+}
+.rvn-calendar:before {
+  content: "\77";
+}
+.rvn-bicycle:before {
+  content: "\78";
+}
+.rvn-flower:before {
+  content: "\79";
+}
+.rvn-camera:before {
+  content: "\7a";
+}
+.rvn-cake:before {
+  content: "\41";
+}
+.rvn-music:before {
+  content: "\42";
+}
+.rvn-cut-heart:before {
+  content: "\43";
+}
+.rvn-hair:before {
+  content: "\44";
+}
+.rvn-gift-box:before {
+  content: "\45";
+}
+.rvn-envelope:before {
+  content: "\46";
+}
+.rvn-bed:before {
+  content: "\47";
+}
+.rvn-pencil-2:before {
+  content: "\48";
+}
+.rvn-envelope-2:before {
+  content: "\49";
+}
+.rvn-glass-1:before {
+  content: "\4a";
+}
+.rvn-ring:before {
+  content: "\4b";
+}
+.rvn-wedding-dress-9:before {
+  content: "\4c";
+}
+.rvn-rings:before {
+  content: "\4d";
+}
+.rvn-wedding-dress-10:before {
+  content: "\4e";
+}
+.rvn-wedding-dress-11:before {
+  content: "\4f";
+}
+.rvn-wedding-dress-12:before {
+  content: "\50";
+}
+.rvn-wedding-dress-13:before {
+  content: "\51";
+}
+.rvn-hand:before {
+  content: "\52";
+}
+.rvn-sliptick:before {
+  content: "\53";
+}
+.rvn-book:before {
+  content: "\54";
+}
+.rvn-bed-2:before {
+  content: "\55";
+}
+
+.icon-img {
+  display: inline-block;
+  background: url(../images/site-icons.png) no-repeat scroll 0 -717px rgba(0, 0, 0, 0);
+}
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4,
+.icon-5,
+.icon-6,
+.icon-7,
+.icon-8,
+.icon-9,
+.icon-10,
+.icon-11,
+.icon-12,
+.icon-13,
+.icon-14 {
+  height: 40px;
+  width: 50px;
+}
+.icon-1 {
+  background-position: 0 -840px;
+}
+.icon-2 {
+  background-position: -50px -840px;
+}
+.icon-3 {
+  background-position: 0 -880px;
+}
+.icon-4 {
+  background-position: -50px -880px;
+}
+.icon-5 {
+  background-position: 0 -920px;
+}
+.icon-6 {
+  background-position: -50px -920px;
+}
+.icon-7 {
+  background-position: 0 -960px;
+}
+.icon-8 {
+  background-position: -50px -960px;
+}
+.icon-9 {
+  background-position: 0 -960px;
+}
+.icon-10 {
+  background-position: 0 -1000px;
+}
+

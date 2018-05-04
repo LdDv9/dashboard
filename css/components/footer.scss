@@ -1,0 +1,59 @@
+.footer {
+  color: $white;
+  position: relative;
+  padding-bottom: 40px;
+  // padding-top: 60px;
+}
+.footer-list-link {
+  margin-top: 10px;
+  a {
+    color: $white;
+    font-weight: 700;
+    &:hover {color: $brand-primary;}
+  }
+}
+
+.social-connect {
+  margin-top: 20px;
+  .social-connect-title {
+    text-align: center;
+  }
+  .social-connect-ul {
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .social-connect-li {
+    display: inline-block;
+  }
+  .social-connect-li:nth-child(1) .social-connect-link { color: #3b5998; }
+  .social-connect-li:nth-child(2) .social-connect-link { color: #bb0000; }
+  .social-connect-li:nth-child(3) .social-connect-link { color: #03a6fa; }
+  .social-connect-li:nth-child(4) .social-connect-link { 
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #9f48a6 90%);    
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2px;
+  }
+  .social-connect-link {
+    color: #fff;
+    font-size: 32px;
+  }
+}
+
+.footer-contact {
+  background: #f5ae18;
+  display: block;
+  padding: 12px 0;
+  border-radius: 6px;
+  -webkit-border-radius: 6px; 
+}
+
+/** Mobile **/
+
+@media (max-width: $screen-sm-max) {
+
+}

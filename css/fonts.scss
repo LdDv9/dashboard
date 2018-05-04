@@ -1,0 +1,63 @@
+$font-path: '../fonts/';
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$font-path}ProximaNova-RegularIt.eot');
+  src: url('#{$font-path}ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}ProximaNova-RegularIt.woff') format('woff'),
+  url('#{$font-path}ProximaNova-RegularIt.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic; 
+}
+
+@font-face {
+  font-family: 'ProximaRegular';
+  src: url('#{$font-path}ProximaNova-Regular.eot');
+  src: url('#{$font-path}ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}ProximaNova-Regular.woff') format('woff'),
+  url('#{$font-path}ProximaNova-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaLight';
+  src: url('#{$font-path}ProximaNova-Light.eot');
+  src: url('#{$font-path}ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}ProximaNova-Light.woff') format('woff'),
+  url('#{$font-path}ProximaNova-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaBold';
+  src: url('#{$font-path}ProximaNova-Bold.eot');
+  src: url('#{$font-path}ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}ProximaNova-Bold.woff') format('woff'),
+  url('#{$font-path}ProximaNova-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "marryv3";
+  src:url("#{$font-path}marryv3.eot");
+  src:url("#{$font-path}marryv3.eot?#iefix") format("embedded-opentype"),
+  url("#{$font-path}marryv3.woff") format("woff"),
+  url("#{$font-path}marryv3.ttf") format("truetype"),
+  url("#{$font-path}marryv3.svg#marryv3") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ObelixProTB";
+  src: url("#{$font-path}ObelixProTB.eot");
+  src: url("#{$font-path}ObelixProTB.eot?#iefix") format("embedded-opentype"),
+    // url("#{$font-path}ObelixProTB.woff2") format("woff2"),
+  url("#{$font-path}ObelixProTB.woff") format("woff"),
+  url("#{$font-path}ObelixProTB.ttf") format("truetype"),
+  url("#{$font-path}ObelixProTB.svg#ObelixProTB") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
