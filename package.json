@@ -50,5 +50,8 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "gulp-install": "^1.1.0"
   }
 }

@@ -53,8 +53,13 @@ define(function (require, exports, module){
         autoclose: true
     });
     $(document).ready(function () {
-        $('#sidebarCollapse').on('click', function () {
-            $('#sidebar').toggleClass('active');
+        $('.js-toggle-sidebar').click( function () {
+            $('.sidebar').toggleClass('sidebar-deactive');
+            // alert('asdas');
+        });
+        $('.sidebar__link').click(function() {
+            $('.sidebar__link').removeClass('active');
+            $(this).addClass('active');
         });
     });
 
